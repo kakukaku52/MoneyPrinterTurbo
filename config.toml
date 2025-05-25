@@ -4,6 +4,10 @@ video_source = "pexels" # "pexels" or "pixabay"
 # 是否隐藏配置面板
 hide_config = false
 
+# Subtitle Provider, "edge" or "whisper"
+# If empty, the subtitle will not be generated
+subtitle_provider = "edge"
+
 # Pexels API Key
 # Register at https://www.pexels.com/api/ to get your API key.
 # You can use multiple keys to avoid rate limits.
